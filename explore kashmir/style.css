@@ -1,0 +1,406 @@
+/* Reset and Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f7f7;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e3d59;
+  padding: 1rem 2rem;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 1.5rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: url("https://images.pexels.com/photos/33000454/pexels-photo-33000454.jpeg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(26, 25, 25);
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 5.5rem;
+  text-decoration: black;
+}
+.hero-text p {
+  font-size: 3.2rem;
+  margin-top: 0.5rem;
+  text-decoration: black;
+}
+input{
+    height: 130px ;
+    width: 90%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255,.3);
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+h2{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.inpbox{
+    height: 40px;
+    width: 200px;
+    margin-left: 30px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+head{
+    font-size: 70px;
+    padding-top: 120px;
+    color: black;
+}
+.bookings{
+    height: 250px;
+    width: 100%;
+    /* background-color: black; */
+    margin-top:100px ;
+}
+.input{
+    height: 130px ;
+    width: 90%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255,.3);
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+h2{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.inpbox{
+    height: 40px;
+    width: 200px;
+    margin-left: 30px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.slide{
+    height: 600px;
+    width: 100%;
+    /*background-color: rgb(128, 197, 23)*/
+}
+.gallery{
+    height: 700px;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide{
+    height: 600px;
+    width: 90%;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.seenu{
+    height:600px;
+    width: 500%;
+    /* background: black; */
+    display: flex;
+    margin-left:0%;
+}
+.photo{
+    height: 100%;
+    width: 20%;
+    /* background-color: blue; */
+    font-size: 40px;
+}
+.dot{
+    height: 100%;
+    width: 50%;
+    background: indigo;
+}
+.trr{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.data{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Destinations */
+#destinations {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+#destinations h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2c786c;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+.image-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.image-card:hover {
+  transform: scale(1.03);
+}
+.image-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-card p {
+  padding: 0.8rem;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.hotel-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hotel-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.hotel-card:hover {
+  transform: scale(1.03);
+}
+
+.hotel-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-info {
+  padding: 15px;
+}
+
+.hotel-info h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #34495e;
+}
+
+.hotel-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+section {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+  height: 160px;
+  object-fit: cover;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.faq details {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #012a4a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-container p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #90e0ef;
+}
+
+
+.footer-credit {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #ccc;
+}
